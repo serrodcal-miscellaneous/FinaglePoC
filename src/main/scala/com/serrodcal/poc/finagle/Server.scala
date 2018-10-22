@@ -6,7 +6,7 @@ import com.twitter.finagle.{Http, Service}
 import com.typesafe.config.{Config, ConfigFactory}
 
 
-object Main extends App {
+object Server extends App {
 
   val config: Config = ConfigFactory.load
 
