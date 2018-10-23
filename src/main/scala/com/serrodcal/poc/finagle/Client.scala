@@ -4,7 +4,6 @@ import com.twitter.finagle.{Http, Service, http}
 import com.twitter.finagle.http.{Request, Response}
 import com.twitter.util.{Await, Future}
 import com.typesafe.config.{Config, ConfigFactory}
-import scala.concurrent.duration._
 
 object Client extends App {
 
